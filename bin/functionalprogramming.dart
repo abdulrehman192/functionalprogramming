@@ -1,5 +1,6 @@
 
 import 'conditionalstructure.dart';
+import 'loops.dart';
 import 'methods.dart';
 
 void main(List<String> arguments) {
@@ -28,4 +29,9 @@ void main(List<String> arguments) {
   print('Grade : ${checkGrade(85)}');
   print('Grade : ${checkGrade(105)}');
   print('Grade : ${checkGrade(-15)}');
+  printHelloWorld();
+
+  printTable(17);
+  printTable(26);
+  checkPrime(8);
 }
